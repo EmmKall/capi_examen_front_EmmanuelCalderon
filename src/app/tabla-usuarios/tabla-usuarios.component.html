@@ -14,11 +14,11 @@
       </tr>
     </thead>
     <tbody>
-      <tr class="border-2 border-gray-400">
-        <td class="border-2 border-gray-400">The Sliding Mr. Bones</td>
-        <td class="border-2 border-gray-400">1961</td>
-        <td class="border-2 border-gray-400">25</td>
-        <td class="border-2 border-gray-400">Malcolm Lockyer</td>
+      <tr class="border-2 border-gray-400 p-2" *ngFor="let user of users">
+        <td class="border-2 border-gray-400 p-1 text-gray-700">{{ user.name }}</td>
+        <td class="border-2 border-gray-400 p-1 text-gray-700">{{ user.fecha_nacimiento }}</td>
+        <td class="border-2 border-gray-400 p-1 text-gray-700">{{ user.edad }}</td>
+        <td class="border-2 border-gray-400 p-1 text-gray-700">{{ user.domicilio + ' ' + user.numero_exterior + ' ' + user.colonia + ' ' + user.cp + ' ' + user.ciudad }}</td>
       </tr>
     </tbody>
   </table>
