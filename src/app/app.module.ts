@@ -5,11 +5,13 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { UsuariosComponent } from './usuarios/usuarios.component';
+import { TablaUsuariosComponent } from './tabla-usuarios/tabla-usuarios.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    UsuariosComponent
+    UsuariosComponent,
+    TablaUsuariosComponent
   ],
   imports: [
     BrowserModule,
