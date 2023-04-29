@@ -2,6 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.6.
 
+API: http://localhost:8000/api/
+Tomando en cuenta que solo se ejecuto el server de Laravel: php artisan serve
+Endpoint: http://localhost:8000/api/users
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
